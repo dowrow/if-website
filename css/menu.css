@@ -52,12 +52,21 @@
     margin-bottom: 24px;
 }
 
+.menu__link:hover {
+    text-decoration: underline;
+}
+
 .menu__burger {
     height: 24px;
     width: 37px;
 }
 
 @media (min-width: 960px) {
+
+    .menu__logo {
+        width: 62px;
+        height: 58px;
+    }
 
     .menu__burger {
         display: none;
