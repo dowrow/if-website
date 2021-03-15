@@ -1,10 +1,8 @@
-.container {
-    color: var(-color-black);
-}
-
 .menu {
     position: fixed;
     width: 100%;
+    background: var(--color-white);
+    z-index: 1;
 }
 
 .menu__content {
@@ -12,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 0;
+    padding: 35px 0 18px 0;
 }
 
 .menu__logo {
@@ -46,10 +44,12 @@
 .menu__close {
     margin-bottom: 40px;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 .menu__link {
     margin-bottom: 24px;
+    font-size: 24px;
 }
 
 .menu__link:hover {
@@ -59,6 +59,7 @@
 .menu__burger {
     height: 24px;
     width: 37px;
+    cursor: pointer;
 }
 
 @media (min-width: 960px) {
@@ -90,6 +91,7 @@
         display: block;
         margin-left: 18px;
         margin-bottom: 0;
+        font-size: 16px;
     }
 
 }
