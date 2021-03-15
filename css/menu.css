@@ -1,0 +1,42 @@
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+.menu__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.menu__logo {
+    width: 47px;
+    height: 42px;
+}
+
+.menu__link {
+    display: none;
+}
+
+.menu__burger {
+    height: 24px;
+    width: 37px;
+}
+
+@media (min-width: 960px) {
+    .menu__burger {
+        display: none;
+    }
+
+    .menu__nav {
+        flex: 0 1 auto;
+        display: flex;
+    }
+    
+    .menu__link {
+        display: block;
+        margin-left: 18px;
+    }
+}

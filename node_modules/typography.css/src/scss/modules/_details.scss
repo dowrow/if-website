@@ -1,0 +1,13 @@
+details {
+  display: block;
+}
+
+summary {
+  display: block;
+  @include margin-bottom(0.5, mobile);
+  @each $device, $width in $screen-breakpoint {
+    @include min-screen($width) {
+      @include margin-bottom(0.5, $device);
+    }
+  }
+}

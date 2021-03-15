@@ -1,0 +1,59 @@
+html, .text {
+    font-family: Arial;
+    font-size: 21px;
+    line-height: 1.38;
+}
+
+.text--small {
+    font-size: 16px;
+}
+
+.text--big {
+    font-size: 24px;
+}
+
+.title { 
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -0.24px;
+}
+
+.title--xl {
+    font-size: 39px;
+}
+
+.title--l {
+    font-size: 42px;
+}
+
+.title--m {
+    font-size: 36px;
+}
+
+.title--s {
+    font-size: 32px;
+}
+
+.title--xs {
+    font-size: 28px;
+}
+
+@media (min-width: 960px) {
+
+    .title--xl {
+        font-size: 82px;
+    }
+    
+    .title--l {
+        font-size: 52px;
+    }
+    
+    .title--m {
+        font-size: 42px;
+    }
+    
+    .title--s {
+        font-size: 32px;
+    }
+
+}
