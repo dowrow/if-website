@@ -64,12 +64,13 @@
     }
 
     .contact__label {
-        flex: 1 1 40%;
+        flex: 1 1 35%;
+        margin-top: 12px;
     }
 
     .contact__input,
     .contact__button {
-        flex: 0 1 60%;
+        flex: 0 1 65%;
     }
 
     .contact__button {
