@@ -1,6 +1,10 @@
 @import 'reset.css';
-@import 'typography.css';
 @import 'color.css';
+@import 'typography.css';
 @import 'wrapper.css';
 @import 'menu.css';
 @import 'home.css';
+@import 'hero.css';
+@import 'features.css';
+@import 'how-it-works.css';
+@import 'contact.css';
