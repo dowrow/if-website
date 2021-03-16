@@ -56,3 +56,23 @@
     text-align: center;
     margin-top: 44px;
 }
+
+@media (min-width: 960px) {
+    .contact__row {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .contact__label {
+        flex: 1 1 40%;
+    }
+
+    .contact__input,
+    .contact__button {
+        flex: 0 1 60%;
+    }
+
+    .contact__button {
+        margin-top: 0;
+    }
+}
