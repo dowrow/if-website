@@ -1,10 +1,4 @@
-img::selection,
-a::selection,
-h1::selection,
-h2::selection,
-h3::selection,
-p::selection,
-span::selection {
+*::selection {
     background: var(--color-green);
 }
 
