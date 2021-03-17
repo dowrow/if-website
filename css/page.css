@@ -1,10 +1,10 @@
 *::selection {
     background: var(--color-green);
+    color: var(--color-black);
 }
 
 .content {
     padding-top: 40px;
-    color: var(--color-black);
 }
 
 .section {

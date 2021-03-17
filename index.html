@@ -220,37 +220,65 @@
                     JUST SWIPE RIGHT
                 </h2>
                 <form class="contact__form">
-                    <div class="contact__row">
-                        <span class="text text--big contact__label">
-                            Yearly orders
-                        </span>
-                        <input
-                            class="contact__input"
-                            type="number"
-                            placeholder="3100"/>    
+                    <div class="contact__thank-you">
+                        <p class="text text--big">
+                            Thank you for your interest.
+                        </p>
+                        <p class="text text--big">
+                            We will get in touch with you soon.
+                        </p>
                     </div>
-                    <div class="contact__row">
-                        <span class="text text--big contact__label">
-                            Email
-                        </span>
-                        <input
-                            class="contact__input"
-                            type="email"
-                            placeholder="yourmail@mail.com"/>    
-                    </div>
-                    <div class="contact__row">
-                        <span class="text text--big contact__label">
-                            Message
-                        </span>
-                        <textarea
-                            class="contact__input contact__input--textarea"  
-                            placeholder="Tell us about your company..."></textarea>
+                    <div class="contact__inputs">
+                        <div class="contact__row">
+                            <label 
+                                for="contact-yearly-orders"
+                                class="text text--big contact__label">
+                                Yearly orders
+                            </label>
+                            <input
+                                required
+                                id="contact-yearly-orders"
+                                class="contact__input"
+                                type="number"
+                                placeholder="3100"/>    
+                        </div>
+                        <div class="contact__row">
+                            <label 
+                                for="contact-email"
+                                class="text text--big contact__label">
+                                Email
+                            </label>
+                            <input
+                                required    
+                                id="contact-email"
+                                class="contact__input"
+                                type="email"
+                                placeholder="yourmail@mail.com"/>    
+                        </div>
+                        <div class="contact__row">
+                            <label 
+                                for="contact-message"
+                                class="text text--big contact__label">
+                                Message
+                            </label>
+                            <textarea
+                                required
+                                id="contact-message"
+                                class="contact__input contact__input--textarea"  
+                                placeholder="Tell us about your company..."></textarea>
+                        </div>
                     </div>
                     <div class="contact__row">
                         <button 
                             class="contact__button"
                             type="submit">
-                            Send
+                            <span class="contact__button-text">
+                                Send
+                            </span>
+                            <img 
+                                class="contact__button-check"
+                                src="img/svg/check-icon.svg" 
+                                alt="Sent successfully"/>
                         </button>
                     </div>
                 </form>
@@ -264,10 +292,18 @@
                     Follow us
                 </strong>
             </p>
-            <a class="text text--big footer__link">
+            <a 
+                href="https://www.instagram.com/runif.co/"
+                target="_blank"
+                rel="noreferrer"
+                class="text text--big footer__link">
                 Instagram 
             </a>
-            <a class="text text--big footer__link">
+            <a 
+                href="https://www.linkedin.com/company/ifulfil/"
+                target="_blank"
+                rel="noreferrer"
+                class="text text--big footer__link">
                 LinkedIn
             </a>
         </div>
