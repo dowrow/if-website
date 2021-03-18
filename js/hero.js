@@ -1,4 +1,4 @@
-const UPDATE_INTERVAL = 5000;
+const UPDATE_INTERVAL = 3000;
 const UPDATE_DELAY = 600;
 const TRANSITION_DURATION = 1000;
 
@@ -42,7 +42,6 @@ function changeColor(element) {
     
     element.style.setProperty('--pill-background', randomColor);
 }
-
 
 let designCounter = 0;
 function getNextDesignText() {
