@@ -57,7 +57,12 @@
 @media (min-width: 960px) {
 
     .hero {
-        padding-top: 220px;
+        height: 100vh;
+        max-height: 720px;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .hero__slogan {
