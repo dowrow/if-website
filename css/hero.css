@@ -1,5 +1,12 @@
 .hero {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__title {
+    margin-top: 60px;
 }
 
 .hero__points,
@@ -26,10 +33,6 @@
 
 .pill--fulfilment {
     --pill-background: var(--color-magenta);
-}
-
-.hero__title {
-    margin-top: 90px;
 }
 
 @keyframes slideIn {
@@ -60,9 +63,10 @@
         height: 100vh;
         max-height: 720px;
         min-height: 600px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    }
+
+    .hero__title {
+        margin-top: 90px;
     }
 
     .hero__slogan {
