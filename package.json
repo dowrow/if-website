@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website for iF",
   "scripts": {
-    "dev": "light-server -s . -w .",
+    "dev": "light-server -s . -w ."
   },
   "repository": {
     "type": "git",
