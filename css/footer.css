@@ -44,3 +44,14 @@
 .footer__year {
     margin-top: 0;
 }
+
+@media (min-width: 960px) {
+    .footer {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .footer__copyright {
+        margin-right: 90px;
+    }
+}
