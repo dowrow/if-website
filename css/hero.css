@@ -4,10 +4,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     max-height: 100vh;
+    padding-top: 60px;
 }
 
-.hero__title {
-
+.hero__slogan {
+    margin-bottom: 20px;
 }
 
 .hero__points,
@@ -76,7 +77,7 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         margin-left: 50%;
-        transform: translate(-70%);
+        transform: translate(-65%);
     }
 
     .hero__you-design,
