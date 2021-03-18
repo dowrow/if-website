@@ -12,7 +12,7 @@
     padding: 15px 40px;
     border-radius: 14px;
     margin: 21px 0;
-    min-width: 247px;
+    width: 247px;
     background: var(--pill-background);
     transition: all 0.3s ease-in;
     overflow: hidden;
@@ -99,7 +99,7 @@
     }
 
     .pill {
-        min-width: 284px;
+        width: 284px;
         height: 88px;
     }
 
