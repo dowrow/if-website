@@ -2,11 +2,8 @@
   "name": "if-website",
   "version": "1.0.0",
   "description": "Website for iF",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "light-server -s . -w .",
-    "build": "echo \"ok\""
   },
   "repository": {
     "type": "git",
