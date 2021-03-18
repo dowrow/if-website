@@ -1,5 +1,6 @@
 const UPDATE_INTERVAL = 5000;
 const UPDATE_DELAY = 600;
+const TRANSITION_DURATION = 1000;
 
 const colors = [
     'var(--color-yellow)',
@@ -69,7 +70,7 @@ async function animateTextChange(textElement, newText) {
     textElement.classList.add('pill__text--hidden');
     setTimeout(() => {
         pill.removeChild(textElement);
-    }, 1000);
+    }, TRANSITION_DURATION);
 }
 
 function changeDesignText() {
