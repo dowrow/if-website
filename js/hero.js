@@ -92,4 +92,14 @@ async function updateHero() {
     changeFulfilText();
 }
 
-const interval = setInterval(updateHero, UPDATE_INTERVAL);
+let interval = setInterval(updateHero, UPDATE_INTERVAL);
+
+function onVisibilityChange() {
+    if (document.hidden) {
+        clearInterval(interval);
+    } else {
+        interval = setInterval(updateHero, UPDATE_INTERVAL);
+    }
+}
+
+document.addEventListener('visibilitychange', onVisibilityChange);
